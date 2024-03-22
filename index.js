@@ -1,6 +1,13 @@
+const nav = document.querySelector(".nav");
+const menu = document.querySelector(".menu");
+const sideMenu = document.querySelectorAll(".side-menu > li");
+const openBtn = document.querySelector(".open-btn");
+
 function openMenu() {
-  let nav = document.querySelector(".nav");
-  let menu = document.querySelector(".menu");
   nav.classList.toggle("active");
   menu.classList.toggle("active");
 }
+
+// function openSideMenu() {
+
+// }

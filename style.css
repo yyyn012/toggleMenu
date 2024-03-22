@@ -87,3 +87,17 @@ li {
   flex-direction: column;
   justify-content: center;
 }
+
+.open-btn {
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.side-menu {
+  position: absolute;
+  z-index: 1;
+}
+/* 
+.side-menu a {
+  display: block;
+} */
