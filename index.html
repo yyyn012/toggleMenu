@@ -18,14 +18,18 @@
           <li><a>hi</a></li>
           <li><a>I'm</a></li>
           <li><a>the</a></li>
-          <li>
-            <a>menu</a>
-            <button class="open-btn" onclick="openSideMenu()">></button>
-            <div style="display: none" class="side-menu">
-              <li><a href="#">111</a></li>
-              <li><a href="#">222</a></li>
-              <li><a href="#">333</a></li>
-              <li><a href="#">444</a></li>
+          <li class="list-group is-active">
+            <a
+              >menu
+              <span class="drop-btn" onclick="dropMenuOpen()">></span>
+            </a>
+            <div class="drop-content">
+              <ul class="sub-list">
+                <li><a href="#">111</a></li>
+                <li><a href="#">222</a></li>
+                <li><a href="#">333</a></li>
+                <li><a href="#">444</a></li>
+              </ul>
             </div>
           </li>
         </ul>

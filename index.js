@@ -1,13 +1,15 @@
 const nav = document.querySelector(".nav");
 const menu = document.querySelector(".menu");
-const sideMenu = document.querySelectorAll(".side-menu > li");
-const openBtn = document.querySelector(".open-btn");
+const dropContent = document.querySelectorAll(".drop-content .sub-list");
+const dropBtn = document.querySelector(".drop-btn");
 
 function openMenu() {
   nav.classList.toggle("active");
   menu.classList.toggle("active");
 }
 
-// function openSideMenu() {
+function optionOpen() {
+  dropContent.classList.toggle("on");
+}
 
-// }
+dropContent.addEventListener("click", optionOpen);
